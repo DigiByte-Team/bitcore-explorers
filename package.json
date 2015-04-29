@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-explorers",
+  "name": "digicore-explorers",
   "version": "0.10.4",
-  "description": "ECIES implemented for Bitcore.",
+  "description": "ECIES implemented for Digicore.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,24 +12,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-explorers.git"
+    "url": "https://github.com/digibyte-team/digicore-explorers.git"
   },
   "keywords": [
     "bitcoin",
+    "digibyte",
     "bitcore",
     "insight"
   ],
   "author": "BitPay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-explorers/issues"
+    "url": "https://github.com/digibyte-team/digicore-explorers/issues"
   },
   "browser": {
     "request": "browser-request"
   },
-  "homepage": "https://github.com/bitpay/bitcore-explorers",
+  "homepage": "https://github.com/digibyte-etam/bitcore-explorers",
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "bitcore-build": "git://github.com/bitpay/digicore-build.git",
     "brfs": "^1.2.0",
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
@@ -37,7 +38,7 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "bitcore": "^0.11.4",
+    "digicore": "^0.11.4",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
